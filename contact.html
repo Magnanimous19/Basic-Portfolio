@@ -5,7 +5,7 @@
     <head>
          <meta charset="UTF-8">
          <title>Basic Portfolio</title>
-         <link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
     </head>
 
 
@@ -15,28 +15,38 @@
             <h1>Reid Burns</h1>
         </header>           
                       
-        <div>
+        <div class="container">
 
-            <!--Links to other pages-->
-           <section>                    
-                <li><strong></strong><a href="index.html">About Me</a></li>        
-                <li><strong></strong><a href="portfolio.html">Portfolio</a></li>
-                <li><strong></strong><a href="contact.html">Contact</a></li>        
-           </section>
-
+            <!--Links to other pages-->                     
+            <ul style="list-style-type:none;">
+                <li><a href="index.html">About Me</a></li>        
+                <li><a href="portfolio.html">Portfolio<a></li>
+                <li><a href="contact.html">Contact</a></li>     
+           </ul>               
+          
 
            <!--Enter Contact Info-->
            <h2>Contact</h2>
 
-           <section>
+           <form action="/action_page.php">
+            Name<br>
+            <input type="text" name="name">
+            <br>
+            Email<br>
+            <input type="text" name="email" value="example@hotmail.com">
+            <br>
+            Message<br>
+            <input type="text" name="message">
+            <br>
+            <input type="submit" value="Submit">
+          </form> 
+
+           <!--<section>
             <p>Name</p>
-
             <p>Email</p>
-
-            <p>Message</p>          
-
-           <button type="button">Submit</button>
-          </section>
+            <p>Message</p>     
+            <button type="button">Submit</button>
+          </section> -->
 
         </div>
 
