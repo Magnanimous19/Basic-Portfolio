@@ -8,47 +8,47 @@
          <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
     </head>
 
-
     <body>
 
-        <div class="container">
+      <header>
 
-        <header>
-            <h1>Reid Burns</h1>
-        </header>           
+         <!--Links to other pages-->
+         <section id="tab-header">
+         <a href="index.html">About Me</a>     
+         <a href="portfolio.html">Portfolio<a>
+          <a href="contact.html">Contact</a>          
 
-               <!--Links to other pages-->
-               <section id="tab-header">
-                <a href="index.html">About Me</a>     
-                <a href="portfolio.html">Portfolio<a>
-                <a href="contact.html">Contact</a>  
-             </section>      
+          <h1>Reid Burns</h1>    
+    
+         </section>         
+               
+      </header>           
 
+        <div class="container">          
 
-           <!--Enter Contact Info-->
-           <h2>Contact</h2>
+         <!--Enter Contact Info-->
+         <h2>Contact</h2>
 
-           <form action="/action_page.php">
-            Name<br>
-            <input type="text" name="name">
-            <br>
-            Email<br>
-            <input type="text" name="email" value="example@hotmail.com">
-            <br>
-            Message<br>
-            <input type="text" name="message">
-            <br>
-            <input type="submit" value="Submit">
-          </form> 
+         <fom action="/action_page.php">
+            
+          <label for="fname">Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-           <!--<section>
-            <p>Name</p>
-            <p>Email</p>
-            <p>Message</p>     
-            <button type="button">Submit</button>
-          </section> -->
+          <label for="lname">Email</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your email..">
+
+          <label for="Message">Message</label>
+          <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
 
         </div>
+
+           <!--Footer-->
+           <footer id="footer">
+            <p>Copyright ©</p>
+            </footer>  
+
 
      </body>
 
